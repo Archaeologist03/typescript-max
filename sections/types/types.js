@@ -1,37 +1,37 @@
 "use strict";
 function basicTypes() {
     // Strings
-    var myName = 'Max';
+    let myName = 'Max';
     // myName = 22;
     // Number
-    var age = 24;
+    let age = 24;
     // age = '24';
     // boolean
-    var hasHobbies = true;
+    let hasHobbies = true;
     // hasHobbies = 1;
     // assign types
-    var realAge;
+    let realAge;
     realAge = 24;
     // realAge = '24';
     // array
-    var hobbies = ['basket', 'reading'];
+    let hobbies = ['basket', 'reading'];
     hobbies = [100];
     // hobbies = 100;
     // tuples
-    var address = ['Superstreet', 99];
+    let address = ['Superstreet', 99];
     // let address1: [string, number] = [99, 'Superstreet'];
     // enum
-    var Color;
+    let Color;
     (function (Color) {
         Color[Color["Gray"] = 0] = "Gray";
         Color[Color["Green"] = 100] = "Green";
         Color[Color["Blue"] = 2] = "Blue";
         Color[Color["Red"] = 3] = "Red";
     })(Color || (Color = {}));
-    var myColor = Color.Green;
+    let myColor = Color.Green;
     console.log(myColor);
     // any
-    var car = 'BMW';
+    let car = 'BMW';
     console.log(car);
     car = { brand: 'Some..', series: 3 };
     console.log(car);
@@ -58,13 +58,13 @@ function basicTypes() {
     console.log(multiply(2, 5));
     // console.log(multiply(2, 'Max'));
     // function types
-    var myMultiply;
+    let myMultiply;
     myMultiply = multiply;
     console.log(myMultiply(5, 3));
     // myMultiply = sayHello;
     // myMultiply();
     // objects
-    var userData = {
+    let userData = {
         name: 'x',
         age: 24,
     };
@@ -73,24 +73,24 @@ function basicTypes() {
     //   b: 24,
     // };
     // complex object
-    var complex = {
+    let complex = {
         data: [111, 23, 10],
         output: function (all) {
             return this.data;
         },
     };
-    var complex2 = {
+    let complex2 = {
         data: [111, 23, 10],
         output: function (all) {
             return this.data;
         },
     };
     // union types
-    var myRealRealAge = 24;
+    let myRealRealAge = 24;
     myRealRealAge = '27';
     // myRealRealAge = true;
     // check types
-    var finalValue = 21;
+    let finalValue = 21;
     if (typeof finalValue === 'number') {
         console.log('Final value is a number');
     }
@@ -101,11 +101,11 @@ function basicTypes() {
     }
     // nullable types
     //("strictNullChecks": true, in tsConfig does not let to reasign to null. You have to do | null, exepct undefined, it can be reasign to null)
-    var canBeNull = 12;
+    let canBeNull = 12;
     canBeNull = null;
-    var canAlsoBeNull;
+    let canAlsoBeNull;
     canAlsoBeNull = null;
-    var canThisBeAny = null;
+    let canThisBeAny = null;
     canThisBeAny = 11;
     // =================================
     // =================================

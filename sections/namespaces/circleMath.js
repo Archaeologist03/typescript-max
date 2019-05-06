@@ -1,9 +1,9 @@
 "use strict";
 var MyMath;
 (function (MyMath) {
-    var Circle;
+    let Circle;
     (function (Circle) {
-        var PI = 3.14;
+        const PI = 3.14;
         function calculateCircumference(diameter) {
             return diameter * PI;
         }
