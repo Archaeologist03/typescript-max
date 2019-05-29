@@ -1,4 +1,4 @@
-# Typescript-snippers / examples
+## Typescript-snippets / examples
 Typescript examples from Maximilian course.
 
 -react-app setup
@@ -11,7 +11,7 @@ Typescript examples from Maximilian course.
 -types
 
 
-## Quick Start
+### Quick Start
 
 ##### 1) Clone repo:
 `git clone git@github.com:Archaeologist03/typescript-max.git`
