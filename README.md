@@ -1,6 +1,7 @@
 # Typescript-snippets / examples
 Typescript examples from Maximilian course.
 
+
 -react-app setup
 -classes
 -decorators
