@@ -20,5 +20,5 @@ Typescript examples from Maximilian course.
 ##### 2) Install needed packages
 `npm install`
 
-##### 3) Start app(dev)
+##### 3) Start app
 `npm start`
